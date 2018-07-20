@@ -57,7 +57,6 @@ public class importerbig {
                 if (i == 0) {
                     handler.verifyColumns(line);
                 } else {
-//                    System.out.println(line);
                     handler.importer(line, getLinea());
                 }
 
